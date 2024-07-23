@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marios Bros</title>
+</head>
+
+<body>
+<div class="header">
+    <img src="img/logo-header.png" alt="mariosirmaoes">
+    <a>home</a>
+    <a>nossos serviços</a>
+    <a>fale conosco</a>
+</div>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <p>Encanadores Marios & Luigi - Resolvendo Seus Poblemas com Estilo!</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento. Vazamentos inesperados torneiras que
+                não param de pingar. Não se preocupe, porque estamos a aqui para salvar, os encanadores mais famosos do
+                Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <button onclick="mostrarForm()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+ <a href="https://wa.me/5511978857023?text=quero+conversar+com+os+irm%C3%A3os+mario" class="link-whatsapp">
+    <img src="img/whatsapp.png" alt="logo whats">
+ </a>
+
+ <form
+      class="formulario"
+      action="https://formcarry.com/s/cM2ukNPPDBp"
+      method="POST"
+      enctype="multipart/form-data">
+         <input placeholder="Nome" type="text" name="Nome">
+         <input placeholder="Telefone" type="tel" name="telefone">
+         <textarea placeholder="Seu Poblema" name="duvida"></textarea>
+         <button type="submit">Pedir Orçamento</button>
+ </form>
+
+ <div class="mascara-formulario" onclick="esconderForm()"></div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
+
